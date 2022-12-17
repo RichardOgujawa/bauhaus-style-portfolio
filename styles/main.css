@@ -587,35 +587,6 @@ main {
     transform: rotate(0.5turn);
 }
 
-
-/*What happens when you click on the project proposal button*/
-.red-circle.anim2 {
-    transform: translate(min(85%, 18vw), 2px) rotate(130deg);
-
-    animation: main-character-2 forwards 1.5s 0.25s ease-in-out;
-}
-
-
-
-  
-  @keyframes main-character-2 {
-    0% {
-        transform: translate(min(85%, 18vw), 2px) rotate(130deg);
-    }
-    30% {
-        transform: translate(min(85%, 18vw), -150px) rotate(130deg);
-    }
-    50% {
-        transform: translate(min(85%, 18vw), -152px) rotate(130deg);
-    }
-    70% {
-        transform: translate(min(85%, 18vw), -150px) rotate(130deg);
-    }
-    100% {
-        transform: translate(min(85%, 18vw), -40px) rotate(130deg);
-    }
-  }
-
 /* MEDIA QUERIES
 ------------------------------------------------*/
 
